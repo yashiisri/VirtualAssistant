@@ -13,7 +13,7 @@ const app = express();
 
 // ✅ CORS Fix: allow only frontend origin with credentials
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://virtualassistant-en73.onrender.com",
   credentials: true,
 }));
 
